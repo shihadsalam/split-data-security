@@ -1,0 +1,27 @@
+{
+    "name" : "Ann",
+    "age" : 29,
+    "ssn" : "799-801-767",
+    "address" : [
+        {
+            "type" : "Home",
+            "street" : "Chennai",
+            "houseNo" : "11/5897",
+            "pinCode" : 611456
+        },
+        {
+            "type" : "Office",
+            "street" : "Kerala",
+            "houseNo" : "TechnoPark",
+            "pinCode" : 695582
+        }
+    ],
+    "creditCard" : {
+            "cardType" : "Mastercard",
+            "cardNumber" : "4567-0123-5789",
+            "pin" : "9876",
+            "cvv" : "454",
+            "expiry" : "12/28"
+    }
+
+}
