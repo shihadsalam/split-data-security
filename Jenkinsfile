@@ -33,7 +33,7 @@ pipeline {
         stage('Docker Build') {
             steps {
                 script {
-                    docker.build("shihadsalam/split-data-security:${TAG}")
+                    docker.build("shihadsalam/split-data-security:${TAG}", "./src/main/docker/")
                 }
             }
         }
